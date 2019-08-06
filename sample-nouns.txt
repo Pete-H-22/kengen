@@ -8,3 +8,8 @@ biscuit
 shoe
 man
 balloon
+thumb
+wizard
+book
+skirt
+bear
