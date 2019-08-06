@@ -13,3 +13,6 @@ wizard
 book
 skirt
 bear
+fish
+kangaroo
+chimp
