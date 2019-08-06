@@ -16,6 +16,11 @@ bear
 fish
 kangaroo
 chimp
+robot
+truck
+phone
+blender
+computer
 box
 sandwich
 hair
