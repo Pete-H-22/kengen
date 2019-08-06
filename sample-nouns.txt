@@ -16,3 +16,7 @@ bear
 fish
 kangaroo
 chimp
+box
+sandwich
+hair
+cat
