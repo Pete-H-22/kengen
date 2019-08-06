@@ -1,0 +1,10 @@
+car
+spider
+melon
+fire
+screen
+tree
+biscuit
+shoe
+man
+balloon
