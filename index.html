@@ -16,9 +16,14 @@
   <meta name="msapplication-TileImage" content="images/hello-icon-144.png">  
   <meta name="msapplication-TileColor" content="#FFFFFF">
 <body class="fullscreen">
-  <div class="container">
-    <h1 class="title">Hello World!</h1>
+  <div id="app">
+    <div class="container">
+      <h1>
+        <span id="part-1">{{part_1 + "-"}}</span><span id="part-2">{{part_2}}</span>
+      </h1>
+    </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

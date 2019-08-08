@@ -6,3 +6,11 @@ window.onload = () => {
                .register('./sw.js');
     }
   }
+
+  var app = new Vue ({
+    el:"#app",
+    data: {
+      part_1: "spice",
+      part_2: "blanket"
+    }
+  });
