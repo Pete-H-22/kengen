@@ -1,0 +1,1 @@
+const nouns = ["car","spider","melon","fire","screen","tree","biscuit","shoe","man","balloon","thumb","wizard","book","skirt","bear","fish","kangaroo","chimp","robot","truck","phone","blender","computer","box","sandwich","hair","cat","spice","blanket"];
