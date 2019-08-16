@@ -23,3 +23,9 @@ body {
   .title {
     font-size: 3rem;
   }
+
+  /* Hidden content*/
+
+  .hidden {
+    display: none !important; 
+  }

@@ -20,6 +20,12 @@ window.onload = () => {
   function kennings_replace() {
     app._data.part_1 = nouns[Math.floor(Math.random()*nouns.length)];
     app._data.part_2 = nouns[Math.floor(Math.random()*nouns.length)];
+    $("#button-defs").addClass("hidden");
+    $("#defs-list").html("");
+    if (meanings[app._data.part_1+"-"+app._data.part_2]) {
+      console.log("previously defined!")
+      $("#button-defs").removeClass("hidden");
+    }
   }
 
   //BUTTONS
@@ -44,6 +50,17 @@ window.onload = () => {
       }
       kennings_replace();
       $("#desc").val("");
+    }
+  });
+
+  $("#button-defs").click(function(){
+    console.log("*");
+    if ($("#defs-list").html() == "") {
+      for (i in meanings[$(".container h1").text()]) {
+        $("#defs-list").append("<p>"+meanings[$(".container h1").text()][i]+"</p>");
+      }
+    } else {
+      $("#defs-list").html("");
     }
   });
 
